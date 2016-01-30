@@ -53,6 +53,12 @@
 	margin: 20px;
 }
 
+.title {
+	font-family: "Lucida Console", Monaco, monospace;
+	color: Crimson;
+	font-variant: small-caps;
+}
+
 img {
 	width: 100%;
 	height: 100px;
