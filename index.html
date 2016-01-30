@@ -9,10 +9,12 @@
     			border-radius: 25px;
     		}
     		
-    		#mainPageOuterBox {
+    		#mainPageDiv {
     			background: linear-gradient( to bottom right, salmon, bisque );
     			width: 100%;
     			height: 100%;
+    			padding: 20px;
+				overflow: hidden;
 
     		}
     		
@@ -98,7 +100,7 @@
                 <button type="button" id="openAddTutorialButton" data-toggle ="modal" data-target="#addTutorialModal" class="btn btn-primary ">Add Tutorial</button>
                 <button type="button" id="logoutButton" class="btn btn-primary pull-right">Logout</button>
             </div>
-            <div id="mainPageOuterBox">
+            <!-- <div id="mainPageOuterBox"> -->
 				<div id="mainPageSearchDiv" class="col-md-offset-2 col-md-8 well">
 				</div>
 				<div id="mainPageContentDiv" class="col-md-offset-2 col-md-8">
@@ -106,7 +108,8 @@
 						
 					</div>
 				</div>
-            </div>
+            <!-- </div> -->
+            <div class= "clear"></div>
         </div>
 
         <!--Modals-->
