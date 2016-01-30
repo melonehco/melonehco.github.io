@@ -18,13 +18,14 @@
 
     		}
     		
-    		#mainPageContentDiv {
-					background-color: bisque;
-					border-radius: 25px;
-					border-width: medium;
-					border-color: salmon;
-					border-style: solid;
-					padding: 15px 15px 15px 15px;
+    		#mainPageBox {
+				background-color: bisque;
+				border-radius: 25px;
+				border-width: medium;
+				border-color: salmon;
+				border-style: solid;
+				padding: 15px 15px 15px 15px;
+				overflow: hidden;
 			}
     		
     		img {
@@ -100,16 +101,17 @@
                 <button type="button" id="openAddTutorialButton" data-toggle ="modal" data-target="#addTutorialModal" class="btn btn-primary ">Add Tutorial</button>
                 <button type="button" id="logoutButton" class="btn btn-primary pull-right">Logout</button>
             </div>
-            <!-- <div id="mainPageOuterBox"> -->
+            <div class="mainPageBox">
 				<div id="mainPageSearchDiv" class="col-md-offset-2 col-md-8 well">
 				</div>
+			</div>
+			<div class="mainPageBox">
 				<div id="mainPageContentDiv" class="col-md-offset-2 col-md-8">
 					<div class="list-group" id="mainPageTutorialsDisplayDiv">
-						
+					
 					</div>
 				</div>
-            <!-- </div> -->
-            <div class= "clear"></div>
+			</div>
         </div>
 
         <!--Modals-->
